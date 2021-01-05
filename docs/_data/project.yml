@@ -1,0 +1,20 @@
+- name: Profits Per Parsec
+  tags: [C#, Unity]
+  img: /assets/images/parseclogo.png
+  link: https://github.com/perpendicular-studios/profits-per-parsec
+  description: Cash out space itself by being the first to explore space enterprise with groundbreaking innovation, cunning business strategies and constant adaptation. Monopolize the space industry and eliminate your competition in this brave new frontier.
+- name: Debt Collector Discord Bot
+  tags: [Javascript, Node, Discord API, AWS]
+  img: /assets/images/debtcollector.png
+  link: https://github.com/adrianlamcw/debtcollectorbot
+  description: A discord bot that can track debts between discord users. Uses discord.js and node to interact with the Discord API. An RDS mySQL database is setup on AWS for storing debt transaction data.
+- name: Just Your Feedback
+  tags: [Python, ImageAI, Survey-Monkey API]
+  img: /assets/images/feedback2.png
+  link: https://github.com/adrianlamcw/just-your-feedback
+  description: Machine learning Image recognition web application that can detect thumbs up/ down through a web camera and automatically submit a survey to SurveyMonkey using their API. Won SurveyMonkey Power Curiosity API Challenge.
+- name: Estate
+  tags: [C++, Allegro]
+  img: /assets/images/estate.png
+  link: https://github.com/perpendicular-studios/estate
+  description: Estate is an open source isometric RTS Game done in C++. Allegro5 is used for Graphics and Audio. 

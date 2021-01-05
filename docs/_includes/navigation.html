@@ -1,7 +1,7 @@
 <nav class="nav">
     {% for item in site.data.navigation %}
       <a href="{{ item.link }}" class="nav-text" 
-      {% if page.url == item.link %} style="color: rgb(85, 133, 179)"
+      {% if page.url == item.link %} style="color: rgb(58, 105, 150)"
       {% else %} style="color: rgb(0, 0, 0);"
         {% endif %}>{{ item.name | upcase }}</a>
     {% endfor %}

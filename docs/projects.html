@@ -1,0 +1,35 @@
+---
+layout: default
+title: Projects
+---
+
+<div class="project-div">
+  {% for item in site.data.project %}
+  <div class="column" style="background-color: white">
+    <img
+      src="{{ item.img }}"
+      alt="{{ item.name }}"
+      width="450"
+      height="200"
+      class="project-img"
+    />
+    <a href="{{ item.link }}" target="_blank" style="text-decoration: none">
+      <span class="project-title">{{ item.name }}</span>
+    </a>
+    <div></div>
+    <div style="margin: 10px; display: flex;">
+      {% for tag in item.tags %}
+      <span class="project-tags">{{ tag }}</span>
+      {% endfor %}
+    </div>
+
+    <p class="project-description">{{ item.description }}</p>
+    <a href="{{ item.link }}" target="_blank">
+      <div class="project-link" style="text-decoration: none">
+        <i class="fab fa-github"></i>
+        View Code On Github
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</div>
